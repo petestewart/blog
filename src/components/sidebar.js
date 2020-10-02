@@ -13,7 +13,7 @@ const Sidebar = ({ siteMetadata }) => (
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
           </div>
-          <div className="author-name">{siteMetadata.author}</div>
+          <div className="author-name">peteStewart.codes</div>
           <p>{siteMetadata.description}</p>
         </div>
       </header>

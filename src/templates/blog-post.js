@@ -37,7 +37,7 @@ class BlogPostTemplate extends React.Component {
                     <span>{post.frontmatter.date}</span>
                   </div>
                 </header>
-                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                <div className="page-blogpost" dangerouslySetInnerHTML={{ __html: post.html }} />
                 <div className="page-footer">
                   <div className="page-tag">
                     {post.frontmatter.tags &&
@@ -73,7 +73,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "YYYY, MMM DD")
+        date(formatString: "MMM DD, YYYY")
         tags
         img {
           childImageSharp {

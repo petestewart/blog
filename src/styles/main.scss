@@ -38,6 +38,40 @@ img + em {
   font-size: 14px;
 }
 
+.gatsby-highlight {
+  font-size: 0.9rem;
+}
+
+/* for image caption */
+.gatsby-resp-image-wrapper + em {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+p {
+  code {
+    background: transparent !important;
+  }
+}
+
+/* for code-block caption */
+.gatsby-highlight + p em {
+  text-align: center;
+  display: block;
+  position: relative;
+  bottom: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+    p {
+      line-height: 0 !important;
+    }
+}
+
 blockquote {
   border-left: 5px solid #000;
   padding-left: 1.1rem;

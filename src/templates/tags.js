@@ -10,25 +10,27 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
   return (
     <Layout>
-      <div className="blog-tags">
-        <h1>{tagHeader}</h1>
-        <ul className="tag-list">
-          {edges.map(({ node }) => {
-            const { title, date } = node.frontmatter;
-            const { slug } = node.fields;
-            return (
-              <span key={slug}>
-                <Link to={slug}>
-                  {title}
-                </Link>
-                <small><span> | {date}</span></small>
-              </span>
-            );
-          })}
-        </ul>
-        <span>
-          <Link to="/tags">← All tags</Link>
-        </span>
+      <div className="clearfix post-content-box">
+        <div className="blog-tags">
+          <h1>{tagHeader}</h1>
+          <ul className="tag-list">
+            {edges.map(({ node }) => {
+              const { title, date } = node.frontmatter;
+              const { slug } = node.fields;
+              return (
+                <span key={slug}>
+                  <Link to={slug}>
+                    {title}
+                  </Link>
+                  <small><span> | {date}</span></small>
+                </span>
+              );
+            })}
+          </ul>
+          <span>
+            <Link to="/tags">← All tags</Link>
+          </span>
+        </div>
       </div>
     </Layout>
   );
