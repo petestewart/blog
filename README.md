@@ -4,4 +4,4 @@ Created with Gatsby using the [flexible-gatsby](https://github.com/wangonya/flex
 
 Hosted by [Netifly](https://www.netlify.com/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a0a6e226-6c7a-43e0-bab6-0c658c8abca5/deploy-status)](https://app.netlify.com/sites/flexible-gatsby/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7517959a-e1f2-4157-8881-96f8458a342e/deploy-status)](https://app.netlify.com/sites/pete-stewart-codes/deploys)
