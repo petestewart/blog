@@ -1,4 +1,4 @@
-Repo for my blog, which is deployed at [petestewart.codes](https://petestewart.codes).
+Repo for my blog, deployed at [petestewart.codes](https://petestewart.codes).
 
 Created with Gatsby using the [flexible-gatsby](https://github.com/wangonya/flexible-gatsby) starter.
 
